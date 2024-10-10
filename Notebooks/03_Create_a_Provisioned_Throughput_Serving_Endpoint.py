@@ -52,7 +52,7 @@ from databricks.sdk.service.serving import (
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC # UCモデルのバージョン
+# MAGIC ### UCモデルのバージョン
 
 # COMMAND ----------
 

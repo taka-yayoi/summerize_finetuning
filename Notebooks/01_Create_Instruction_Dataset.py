@@ -115,7 +115,7 @@ filtered_df = load_and_filter(table_name=f"{CATALOG}.{USER_SCHEMA}.{INPUT_TABLE}
 # MAGIC %md
 # MAGIC ### 重複排除
 # MAGIC
-# MAGIC 'text'および'title'列に基づいてフィルタリングされたデータセットの重複を排除し、ユニークなブログ投稿を保証します。
+# MAGIC `text`および`title`列に基づいてフィルタリングされたデータセットの重複を排除し、ユニークなブログ投稿を保証します。
 
 # COMMAND ----------
 
@@ -129,7 +129,7 @@ print(f"重複排除後の件数: {filtered_deduped_count}")
 # MAGIC ## プロンプト列の追加
 # MAGIC
 # MAGIC
-# MAGIC `PromptTemplate` クラスが以下を返すように空欄を埋めます:
+# MAGIC `PromptTemplate` クラスが以下を返すようにします:
 # MAGIC - 指示
 # MAGIC - ブログキー
 # MAGIC - ブログテキスト
