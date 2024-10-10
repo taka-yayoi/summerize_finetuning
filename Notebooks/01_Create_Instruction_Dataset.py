@@ -9,10 +9,10 @@
 # MAGIC
 # MAGIC **手順:**
 # MAGIC 1. 生のDatabricks記事データを読み込む
-# MAGIC 2. 空の行をフィルタリングし、データの重複を排除する
-# MAGIC 3. ブログテキストをプロンプトに構造化する
-# MAGIC 4. `prompt`、`response`の列を持つテーブルを作成する。ここで、`response`列はブログ投稿のタイトルです
-# MAGIC 5. このテーブルを使用して、[Unity Catalog Volume](https://docs.databricks.com/ja/connect/unity-catalog/volumes.html)にJSONLファイルを書き込む
+# MAGIC 2. [Unity Catalog Volume](https://docs.databricks.com/ja/connect/unity-catalog/volumes.html)にデータを書き込み、そこからテーブルを作成する。
+# MAGIC 3. 空の行をフィルタリングし、データの重複を排除する
+# MAGIC 4. ブログテキストをプロンプトに構造化する
+# MAGIC 5. `prompt`、`response`の列を持つテーブルを作成する。ここで、`response`列はブログ投稿のタイトルです
 
 # COMMAND ----------
 
