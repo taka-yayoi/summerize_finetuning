@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC # 4: クエリエンドポイントとバッチ推論
+# MAGIC # 4: エンドポイントのクエリーとバッチ推論
 # MAGIC
 # MAGIC このノートブックでは、以下の操作を行います:
 # MAGIC 1. 単一のリクエストでモデルサービングエンドポイントをクエリします
